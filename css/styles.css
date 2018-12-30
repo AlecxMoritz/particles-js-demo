@@ -1,0 +1,75 @@
+body, html {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+canvas {
+    display: block;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+#am-canvas {
+    text-align: center;
+    /* margin-top: -5em; */
+}
+
+#content {
+    padding: 3em;
+    text-align: center;
+    font-size: 160%;
+}
+
+.link {
+    text-decoration: none;
+    color: #5998ff;
+}
+
+.link:hover {
+    color: #9484D2
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #9484D2;
+}
+
+.footer-link:hover {
+    color: #5998ff;
+}
+
+#content h1 {
+    font-weight: 100;
+}
+
+#canvas-text {
+    color: white;
+    font-size: 480%;
+    margin: 0;
+    text-transform: uppercase;
+    position: absolute;
+    top: 45vh;
+    left: 30vw; 
+    margin: auto;
+    z-index: 10;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    height: 10em;
+    background-color: black;
+    padding-top: 7%;
+}
